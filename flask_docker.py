@@ -1,10 +1,10 @@
-from flask import Flask
+from flask import Flask app =
 
-app = Flask(__name__)
+Flask(__name__)
 
 @app.route('/')
 def hello_world():
-	return 'Hello FOSS'
+	return 'Hello FOSS, my name Nguyen Ho Gia Phuc, Hello CI/CD using Jenkins'
 
 if __name__ == '__main__':
 	app.run(debug=True, host='0.0.0.0, port=5000')
